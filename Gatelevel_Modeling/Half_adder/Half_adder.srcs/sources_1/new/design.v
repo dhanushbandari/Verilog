@@ -1,28 +1,8 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 17.06.2026 13:46:05
-// Design Name: 
-// Module Name: design
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
-
+// Half adder using Gate Level Abstaraction
 module halfadder(
-input a,b,
-output sum,carry);
-xor (sum,a,b);
-and(carry,a,b);
+input a,b, // Input Ports 
+output sum,carry); // Output Ports
+xor (sum,a,b); // Xor operation for Sum A^B
+and(carry,a,b); // And operation to Carry A&B
 endmodule

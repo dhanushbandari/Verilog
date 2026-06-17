@@ -1,11 +1,17 @@
-.cache/
-.hw/
-.ip_user_files/
-.runs/
-.sim/
+# Vivado generated directories
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.gen/
 .Xil/
+
+# Vivado logs
 *.jou
 *.log
 *.str
 *.tmp
+
+# User-specific files
 *.xpr.user

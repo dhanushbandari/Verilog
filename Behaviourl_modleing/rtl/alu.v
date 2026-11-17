@@ -18,7 +18,7 @@ always @(*) begin
             2'b01: y = (a -((~b)+1));
             2'b10: y = a * b;
             2'b11: y = b**2;
-
+// Comment line
             default: y = 8'd0;
 
         endcase
